@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/* Reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Display";
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #fff;
+  margin: auto;
+  width: 87vw;
+  max-width: 450px;
+  border-radius: 20px;
+  box-shadow: 0px 20px 50px -1px #e9d5ca;
+}
+
+.top-img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.main-section {
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+
+h1 {
+  margin: 1.5rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.main-paragraph {
+  margin: 0 0.5rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-section {
+  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  grid-auto-flow: column;
+  margin: 1.6rem 0px 1.5rem 0;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.plan-details strong {
+  font-weight: 900;
+  font-size: 0.9rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.plan-details p {
+  line-height: 1.7rem;
+  font-size: 0.9rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-section a {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: hsl(245, 75%, 52%);
+  justify-self: end;
+  align-self: center;
+}
+
+.plan-section a:hover {
+  text-decoration: none;
+  color: hsl(245, 83%, 68%);
+}
+
+.proceed {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: hsl(245, 75%, 52%);
+  padding: 1rem;
+  margin: 1.6rem 0px 1.5rem 0;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  box-shadow: 0px 3px 10px #826f66;
+}
+.proceed:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.cancel {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (min-width: 475px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+  }
+  .main-section {
+    padding: 0 2.5rem 3rem 2.5rem;
+  }
+
+  h1 {
+    margin-top: 2.5rem;
+    font-size: 1.8rem;
+  }
+
+  .main-paragraph {
+    margin: 0 1.5rem;
+    line-height: 1.65rem;
+    font-size: 1.1rem;
+  }
+
+  .plan-section {
+    margin: 1.3rem 0 1.8rem 0;
+    padding: 1.6rem;
+  }
+
+  .plan-details strong {
+    font-size: 1rem;
+  }
+
+  .plan-details p {
+    font-size: 1rem;
+  }
+
+  .cancel {
+    margin-top: 2rem;
+  }
+}

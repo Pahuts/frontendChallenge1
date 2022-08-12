@@ -11,13 +11,26 @@ The designs were created to the following widths:
 
 ### Primary
 
+## Body Background
+
 - Pale blue: hsl(225, 100%, 94%)
+
+## Main Button Colors
+
 - Bright blue: hsl(245, 75%, 52%)
 
 ### Neutral
 
+## Section Background
+
 - Very pale blue: hsl(225, 100%, 98%)
+
+## Paragraph Text Color
+
 - Desaturated blue: hsl(224, 23%, 55%)
+
+## Title, Strong, Hover Color
+
 - Dark blue: hsl(223, 47%, 23%)
 
 ## Typography
